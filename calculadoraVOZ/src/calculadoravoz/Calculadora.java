@@ -77,6 +77,7 @@ public class Calculadora extends javax.swing.JFrame implements Runnable {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setBackground(new java.awt.Color(204, 229, 255));
 
+        txtNumero.setEditable(false);
         txtNumero.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.NumberFormatter()));
         txtNumero.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
         txtNumero.setFont(new java.awt.Font("Tahoma", 1, 13)); // NOI18N
@@ -129,12 +130,15 @@ public class Calculadora extends javax.swing.JFrame implements Runnable {
         btnX_Y.setText("x^y");
         jPanel1.add(btnX_Y);
 
+        btn7.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         btn7.setText("7");
         jPanel1.add(btn7);
 
+        btn8.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         btn8.setText("8");
         jPanel1.add(btn8);
 
+        btn9.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         btn9.setText("9");
         jPanel1.add(btn9);
 
@@ -153,12 +157,15 @@ public class Calculadora extends javax.swing.JFrame implements Runnable {
         btn10_2.setPreferredSize(new java.awt.Dimension(75, 50));
         jPanel1.add(btn10_2);
 
+        btn4.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         btn4.setText("4");
         jPanel1.add(btn4);
 
+        btn5.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         btn5.setText("5");
         jPanel1.add(btn5);
 
+        btn6.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         btn6.setText("6");
         jPanel1.add(btn6);
 
@@ -174,12 +181,15 @@ public class Calculadora extends javax.swing.JFrame implements Runnable {
         btnLog.setText("log");
         jPanel1.add(btnLog);
 
+        btn1.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         btn1.setText("1");
         jPanel1.add(btn1);
 
+        btn2.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         btn2.setText("2");
         jPanel1.add(btn2);
 
+        btn3.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         btn3.setText("3");
         jPanel1.add(btn3);
 
@@ -209,6 +219,7 @@ public class Calculadora extends javax.swing.JFrame implements Runnable {
         });
         jPanel1.add(jButton1);
 
+        btn0.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         btn0.setText("O");
         btn0.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
